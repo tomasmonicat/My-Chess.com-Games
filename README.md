@@ -10,14 +10,14 @@ other among my games.
 
 ### The `api-processing.py` script
 
-This script contains a few useful functions that will be used to retreive the data from chess.com API and process it to get
+This script contains a few useful functions that will be used to retrieve the data from chess.com API and process it to get
 useable information. All if this will be explained in detail below. If you find it useful, feel free to fork the repo and
 use it yourself!
 
-#### Retreiving the information
+#### Retrieving the information
 
 This is done with the `requests` module, and the json obtained is passed into a pandas DataFrame. In this case, the 
-url provided retreives information of the games played by a particular username id in a month, but many other things
+url provided retrieves information of the games played by a particular username id in a month, but many other things
 can be obtained. The full API documentation can be found [here](https://www.chess.com/news/view/published-data-api).
 
 #### Cleaning and processing the data
